@@ -1,0 +1,21 @@
+server:
+  port: 8084
+  servlet:
+    context-path: '/Postgres'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    env:
+      enabled: true
+info:
+  application:
+    name: Postgres-Application
+    description: An Application with Postgres DB
+    author: Akash Singh
+    version: '@project.version@'
+spring:
+  profiles:
+    active: dev
