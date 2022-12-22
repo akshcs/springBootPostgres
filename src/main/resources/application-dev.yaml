@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/mydummydb
+    url: jdbc:postgresql://localhost:5432/earthQuakeDB
     username: postgres
     password: 123
   jpa:

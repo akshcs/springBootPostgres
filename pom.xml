@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>springBootPostgres</artifactId>
+	<artifactId>EarthQuakes</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springBootPostgres</name>
+	<name>EarthQuakes</name>
 	<description>Postgres project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
